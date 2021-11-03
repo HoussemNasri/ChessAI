@@ -28,7 +28,11 @@ one pawn up." That is basically it, with counting material.
 
 #### Implementation
 
-### Our Technique of Evaluation
+### The Technique We Used
+We used a combination of PST and Material couting to achieve the highest precision
+#### Material Counting Parameters
+- **Queen:** 900 points
+- **Rook:** 500 points
 
 
   
