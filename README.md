@@ -19,9 +19,9 @@ and returns a score of how likely you'll win, the MiniMax algorithm uses this fu
 An extremely effective evaluation technique is called piece square tables. A PST's value indicates if a square is a good
 square for a piece, or it isn't.
 
-## Counting Materials
+## Material Couting
 
-Counting the material on the board is the most basic way of evaluating a chess position. You can just compare
+Another evaluation technique called Material counting this is the most basic way of evaluating a chess position. You can just compare
 material: "I have one bishop and 2 knights, while my opponent has two bishops and one knight. So light pieces are equal.
 We both have a queen, and one rook, so that is equal as well. He has four pawns and I have five... so in the end, I'm
 one pawn up." That is basically it, with counting material.
