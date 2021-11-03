@@ -9,10 +9,10 @@ chances of winning.
 
 ## Evaluation Function
 
-Using the MiniMax algorithm to decide the next move can't tell us for sure if we are going to win the game, because
-there is so many possibilities and unless you have a galaxy sized super-computer it's impossible, for that reason we use
-heuristics, an evaluation function to help us compare two moves and decide the one that's likely to contribute to us
-winning the game.
+Applying MiniMax on a TicTacToe game will play every possibility in the game and pick the move that will 100% make you win or at least
+Draw, winning against such algorithm is impossible, but chess unlike TicTacToe has an infinite number of possibilities so we can't keep playing the games until
+finding the move that will guarantie winning, for that reason we use an **evaluation function**, this function takes the board state after playing a move
+and returns a score of how likely you'll win, the MiniMax algorithm uses this function to evaluate and compare moves.
 
 ### Piece Square Tables (PST)
 
